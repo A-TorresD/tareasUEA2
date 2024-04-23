@@ -1,0 +1,17 @@
+
+void setup() {
+  size(600,600);   //Tamaño de la ventana (Ancho en px, Alto en px)
+}
+
+void draw() {
+  background (248,240,250); //Color del fondo en valores RGB
+  fill(126,196,242); //Color de relleno del rectangulo en valores RGB
+  rect(200, 200, 200, 200); //Dibujo del rectangulo (Posición X en px, Posición Y en px, Ancho en px, Alto en px)
+
+  fill(0,0,0); //Color del texto en valores RGB
+  text("Miguel", 225, 315); //Inserción de texto ("Contenido del texto", Posición X en px, Posición Y en px)
+  textSize (50); //Indica el tamaño de la fuente
+}
+
+
+  
